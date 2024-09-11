@@ -1,24 +1,14 @@
+import logo from './logo.svg'
+import './App.css'
 import React from 'react'
+import AuthForm from './AuthForm'
 
-function App( ) {
-  var x = 10;
 
-    function updateState() {
-      x = 15;
-      // console.log(x);
-      
-
-    }
-    console.log(x);
-    
-
+function App() {
   return (
-    <>
-     <h1> Learinig State {x}</h1>
-     <button onClick={updateState}>Click Me</button>
-
-    </>
-  
+    <div>
+      <AuthForm/>
+      </div>
   )
 }
 
